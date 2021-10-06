@@ -15,5 +15,4 @@ function getRandomInt(min, max) {
     return result;
 }
 
-const res = getRandomInt(10,20)
-console.log(res)
+module.exports = getRandomInt;
